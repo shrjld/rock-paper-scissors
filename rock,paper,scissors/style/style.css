@@ -1,0 +1,62 @@
+:root {
+    --color: rgb(54, 207, 245);
+}
+
+.game {
+    background-color: rgb(179, 238, 245);
+    margin-top: 25px;
+
+
+}
+
+.left-box {
+    border: 10px solid var(--color);
+    height: 700px;
+    position: relative;
+
+
+
+
+}
+
+.right-box {
+    border: 10px solid var(--color);
+    height: 700px;
+
+}
+
+.image1,
+.image2 {
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+}
+
+.points {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+
+.refresh {
+    background-color: rgb(84, 178, 147);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 50px;
+    right: 450px;
+
+}
+
+.user-win,
+.cpu-win {
+    font-size: 100px;
+    color: var(--color);
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
